@@ -45,7 +45,9 @@ library
                    fingertree < 0.2,
                    stm >= 2.4 && < 2.5,
                    time > 1.4 && < 1.8,
-                   transformers
+                   transformers,
+                   lens >=4.16 && <4.17,
+                   network-transport-tcp >=0.4 && <0.5
   extensions:      CPP
   hs-source-dirs:   src
   ghc-options:      -Wall
